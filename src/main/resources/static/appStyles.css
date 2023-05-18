@@ -1,0 +1,27 @@
+.appBorder {
+	border: 2px solid #6abfe9;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.header-margin-top {
+	margin-top: 8rem;
+}
+
+.navbar {
+	background-color: #E0C7C0;
+}
+.btn-width{
+	width: 25%;
+	padding: 5px;
+	margin: 5px;
+}
+.center-items{
+	justify-content: center;
+}
+.row-padding{
+	padding: 0.75rem;
+}
+.errBorder{
+	border: 2px solid red;
+}
