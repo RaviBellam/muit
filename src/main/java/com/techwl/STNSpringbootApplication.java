@@ -8,6 +8,7 @@ public class STNSpringbootApplication {
 
 	public static void main(String[] args) {
 
+		System.out.println("STN application is about to start");
 		SpringApplication.run(STNSpringbootApplication.class, args);
 	}
 
