@@ -8,8 +8,7 @@ const usersList = [];
  	$("#addContributionsDiv").hide();
  	$("#contibutorCntls").hide(); 
  	$("#contri_success_div").hide();
-	$("#modelTrigger").hide();   -- rendering of the element
- 	
+	$("#modelTrigger").hide(); 	
  	
  	$(".addMoreBtn").click(function(){
 		$("#addContributionsDiv").append(addContributorsContent); 	 
@@ -17,8 +16,7 @@ const usersList = [];
  	
  	$("#cancelContributionsBtn").on("click", function(){
 		window.location.href = "/dashboard"; 	 
- 	});
- 	 
+ 	}); 	 
    
    $("#showAddUser").on("click", function(){
    	$.ajax({
